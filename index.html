@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/icon" href="Assets/img/icon.png">
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
+    <script type="text/javascript" src="Assets/js/jquery-3.1.0.min.js.download"></script>
+    <script type="text/javascript" src="Assets/js/mouse.js.download"></script>
+    <style type="text/css">
+        * {
+            cursor: url(https://ani.cursors-4u.net/symbols/sym-9/sym825.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym825.png), auto !important;
+        }
+    </style>
+</head>
+<body>
+
+<div id="wrapper" class="wrapper" style="height: 625px; max-height: 625px;">
+    <div class="screen-container">
+        <img src="Assets/img/screen1.png" alt="screen">
+        <div class="screen" id="screen">
+            <div class="main-container" id="main-container">
+                <div class="content">
+                    <div class="content-left left">
+                        <div class="container">
+                            <img src="Assets/img/avatar.jpg" class="image" title="Ảnh đại diện" alt="avatar">
+                        </div>
+                    </div>
+                    <div class="content-right right">
+                        <button class="tile user"><span class="fas fa-user"></span></button>
+                        <a class="tile skill" href="javascript:void(0)"><span class="fas fa-snowflake"></span></a>
+                        <a class="tile love" href="javascript:void(0)"><span class="fas fa-heart"></span></a>
+                        <button class="tile image-gallery" href="javascript:void(0)"><span class="fas fa-star"></span>
+                        </button>
+                        <a class="tile contact" href="javascript:void(0)" title="Liên hệ"><span
+                                class="fas fa-phone"></span></a>
+                    </div>
+                </div>
+                <a href="https://soundcloud.com" target="_blank" class="lab1 btn btn-large "><i
+                        class="fab fa-soundcloud"></i></a>
+                <a href="https://spotify.com" target="_blank" class="lab2 btn"><i
+                        class="fas fa-music"></i></a>
+                <a class="lab3 btn" href="https://letterboxd.com" target="_blank"><i
+                        class="fas fa-film"></i></a>
+                <a class="lab4 btn" target="_blank"
+                   href="https://www.goodreads.com"><i
+                        class="fas fa-book-open"></i></a>
+                <a class="lab5 btn btn-small" href="https://trakt.tv" target="_blank"><i
+                        class="fas fa-tv"></i></a>
+                <a class="lab6 btn btn-large" target="_blank" href="https://walkerwk.blogspot.com/"><i
+                        class="fab fa-blogger"></i></a>
+                <a class="lab7 btn btn-small" target="_blank"
+                   href="https://www.grouvee.com"><i
+                        class="fas fa-gamepad"></i></a>
+                <a class="lab9 btn" target="_blank"
+                   href="https://myanimelist.net"><i
+                        class="fas fa-paw"></i></a>
+                <div id="modalUser" class="modal" style="display: none;">
+                    <span class="close">×</span>
+                    <h1>About me</h1>
+                </div>
+                <div class="modal" id="modalLove" style="display: none;">
+                    <span class="close"></span>
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <form action="" class="formConfession" method="post">
+                            <h1 class="title">Nói gì với mình đi ^^</h1>
+                            <textarea id="message" placeholder="Tin nhắn" rows="8"></textarea>
+                            <div class="seperate"></div>
+                            <div class="center"><input type="submit" value="Gửi" id="sendmail"></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="ajax-loader" id="loading-image" style="display: none;">
+                    <img src="Assets/img/loader.gif" class="img-responsive">
+                </div>
+                <div class="modal" id="modalContact" style="display: none;">
+                    <span class="close"></span>
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h1>Liên hệ</h1>
+                    </div>
+                </div>
+            </div>]
+
+            <div id="skill">
+                <div class="skill-content">
+                    <div class="item">
+                        <a target="_blank" href=""><img
+                                src="Assets/img/skill1.jpg"></a>
+                    </div>
+                    <div class="item">
+                        <a href="" target="_blank">
+                            <img src="Assets/img/skill8.jpg"></a>
+                    </div>
+                    <div class="item">
+                        <img src="Assets/img/skill3.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="Assets/img/skill7.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="Assets/img/skill5.jpg">
+                    </div>
+                    <div class="item">
+                        <a href="" target="_blank" title="html, css"><img
+                                src="Assets/img/skill6.jpg"></a>
+                    </div>
+                    <div class="item">
+                        <img src="Assets/img/skill2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="taskbar" id="taskbar" style="width: 984.625px; bottom: 84.7188px;">
+                <ul>
+                    <li><a class="google" href="https://www.google.com/" target="_blank"><span
+                            class="fab fa-chrome"></span></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/" target="_blank">
+                        <span class="fab fa-youtube"></span></a></li>
+                </ul>
+            </div>
+            <div class="bottom" id="bottom" style="width: 984.625px; bottom: 54.7188px;"></div>
+        </div>
+
+    </div>
+</div>
+<div id="footer" class="footer">
+</div>
+<div class="mobile"><p>Not support in mobile/ipad</p></div>
+<script src="Assets/js/script.js.download"></script>
+</body>
+</html>
