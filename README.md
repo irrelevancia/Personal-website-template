@@ -1,1 +1,1 @@
-https://giiny10.github.io/Personal-website-template-1/
+https://giinnynguyen.github.io/Personal-website-template-1/
